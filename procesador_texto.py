@@ -1,4 +1,13 @@
 def contar_palabras(texto):
+    """
+    Cuenta cuántas veces aparece cada palabra en un texto.
+
+    Parámetros:
+    texto (str): Texto de entrada.
+
+    Retorna:
+    dict: Diccionario con palabras como claves y sus frecuencias como valores.
+    """
     palabras = texto.split(" ")
     conteo = {}
     for p in palabras:
